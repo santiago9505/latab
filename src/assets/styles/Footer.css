@@ -1,0 +1,47 @@
+@import url("Global.css");
+
+.footer {
+  background: var(--lighting);
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  padding: 48px 0px 43px;
+}
+
+.footer__section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+}
+
+.footer__navbar {
+  display: flex;
+  gap: 48px;
+}
+
+.navbar__link {
+  color: var(--primary);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.footer__social-media {
+  display: flex;
+  gap: 40px;
+}
+
+.social-media__link {
+  color: var(--gray);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.footer__info {
+  color: var(--gray);
+}

@@ -1,14 +1,26 @@
-import React from 'react'
+import React from "react";
 
-//styles
-import "../../assets/styles/Header.css"
+// Styles
+import "../../assets/styles/Header.css";
+import Logo from "../../assets/static/logo.svg";
 
-const Header = () => {
-  return (
-    <header className="header">
-      <h1>Hola</h1>
-    </header>
-  )
-}
+const Header = (props) => (
+  <header className="header">
+    <div className="header__container">
+      <div className="header__logo">
+        <img src={Logo} alt="" />
+      </div>
+      <nav className="header__navbar">
+        <a href="#" className="header__link">
+          Inicio
+        </a>
+        <a href="#" className="header__link">
+          Descripción
+        </a>
+        <button className="header__cta">Pre-ordenar</button>
+      </nav>
+    </div>
+  </header>
+);
 
-export default Header
+export default Header;

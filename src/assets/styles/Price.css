@@ -1,0 +1,49 @@
+@import url("Global.css");
+
+.price {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 5rem 1.5rem;
+  gap: 2rem;
+  font-size: 1.5rem;
+}
+
+.price__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.price__img {
+  width: 18rem;
+  height: 15rem;
+  background-color: #90acf7;
+  border-radius: 2rem;
+}
+
+.comparative__section {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.price__paragraph {
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 400;
+  color: var(--gray);
+}
+
+@media (min-width: 834px) {
+  .comparative__section {
+    gap: 4rem;
+    flex-direction: row;
+    justify-content: center;
+    text-align: start;
+  }
+}

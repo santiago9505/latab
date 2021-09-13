@@ -79,8 +79,9 @@
     margin-top: 5rem;
   }
   .hero__text--container {
-    font-size: 3.75rem;
+    font-size: 3rem;
     line-height: 6rem;
+    width: 100%;
   }
 
   .hero__image--container {
@@ -89,7 +90,7 @@
     border-radius: 1rem;
     bottom: 2rem;
     bottom: 100;
-    margin-top: -3rem;
+    margin-top: -2rem;
   }
   .hero__paragraph {
     width: 60%;
@@ -119,7 +120,7 @@
 
 @media (min-width: 1440px) {
   .hero__text--container {
-    font-size: 5.25rem;
+    font-size: 4.75rem;
     line-height: 6rem;
     width: 100%;
   }
